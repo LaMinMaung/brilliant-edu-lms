@@ -1,0 +1,32 @@
+# Keep only application source and docs at the repository root.
+/*
+!/.gitignore
+!/README.md
+!/pb_migrations/
+!/pb_hooks/
+!/codebase/
+
+# Runtime data, local secrets, and generated files.
+pb_data/
+**/pb_data/
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+.DS_Store
+**/.vite/
+**/.vite_status
+**/.vite_copied
+**/node_modules/
+**/dist/
